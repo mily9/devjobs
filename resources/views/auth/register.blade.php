@@ -23,7 +23,7 @@
                 <option value="1">Developer - Obtener empleo</option>
                 <option value="2">Recruiter - Publicar empleos</option>
             </select>
-            <x-input-error :messages="$errors->get('email')" class="mt-2" />
+            <x-input-error :messages="$errors->get('rol')" class="mt-2" />
         </div>
 
         <!-- Password -->
